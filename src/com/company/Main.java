@@ -7,6 +7,9 @@ public class Main {
         System.out.println("hello world ! from github.com..");
         System.out.print("Aashi Maharjan");
 
+        SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
+        Date date = new Date(System.currentTimeMillis());
+        System.out.println(formatter.format(date));
 
         //System.out.println("Java Automation\n");
 
